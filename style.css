@@ -1,0 +1,222 @@
+/*DISPLAY BEFORE WORK-------------------------------------------------------------------------*/
+body {
+    text-align: center;
+    font-family: Roboto;
+    margin: 0;
+}
+
+.section_one{
+    background-color: #1F2937;
+}
+
+.section_two{
+    background-color: white;
+}
+
+.section_three{
+    background-color: #E5E7EB;
+}
+
+.section_four{
+    background-color: white;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+}
+/*DISPLAY BEFORE WORK-------------------------------------------------------------------------*/
+
+
+
+/*SECTION 1------------------------------------------------------------------------------------*/
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.header_left, .header_right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header_link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header_link:hover{
+    background-color: #F9FAF8;
+    color: black;
+}
+
+.section_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 100px;
+    gap: 100px;
+    text-align: left;
+}
+
+.section_one_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.section_one_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.secondary_text{
+    margin-top: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign_up_top{
+    background-color: #3882F6;
+    font-size: 16px;
+    color: #F9FAF8;
+    border-radius: 10%;
+    padding: 3px 30px;
+}
+
+.sign_up_top:hover{
+    background-color: #F9FAF8;
+    color: black;
+}
+
+.section_one_image{
+    width: 500px;
+    height: 200px;
+}
+
+/*SECTION 1------------------------------------------------------------------------------------*/
+
+
+
+/*SECTION 2------------------------------------------------------------------------------------*/
+.section_two{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 200px;
+}
+
+.information{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image_two{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 20%;
+}
+
+/*SECTION 2------------------------------------------------------------------------------------*/
+
+
+
+/*SECTION 3------------------------------------------------------------------------------------*/
+.section_three{
+    padding: 100px 200px;
+}
+
+.quote{
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+/*SECTION 3------------------------------------------------------------------------------------*/
+
+
+
+/*SECTION 4------------------------------------------------------------------------------------*/
+
+.section_four{
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+}
+.call_to_action_box{
+    width: 700px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 2%;
+}
+
+.call_to_action{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.sign_up_text{
+    font-size: 16px;
+    color: #F9FAF8;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.sign_up_text, .sign_up_bottom{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.bottom_button{
+    font-size: 16px;
+    color: #F9FAF8;
+    border-radius: 25%;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 10px;
+}
+
+.bottom_button:hover{
+    background-color: #F9FAF8;
+    color: black;
+}
+/*SECTION 4------------------------------------------------------------------------------------*/
+
+
+
+/*SECTION F------------------------------------------------------------------------------------*/
+.footer {
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px 200px;
+}
+/*SECTION F------------------------------------------------------------------------------------*/
